@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header';
 
 class Principal extends React.Component {
@@ -6,6 +7,8 @@ class Principal extends React.Component {
         return(
             <>
             <Header />
+            
+            {/* EM6 */}
             </>
         )
     }
