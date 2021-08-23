@@ -1,24 +1,25 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Nav,NavLink,Button} from 'reactstrap';
-import '../Style/Generales.css'
+import {Nav,NavLink,Button,Row,Container} from 'reactstrap';
+import '../Style/Generales.css';
 
 class Header extends React.Component {
     render() {
         return(
             <>
-            <div>
-      
-<br/>
-      <br/>
-    
-           <Nav  className="Estilos-menu Estilos-font">
+           <Container>
+  <br/>
+    <Row>
+    <Nav style={{fontSize:'10pt', fontWeight:'700',marginLeft: '20%'}}>
         <NavLink href="#" className="" style={{color: 'black', background: 'cian'}}>¿QUÉ ES HELLOSURVEY?</NavLink>
-         <NavLink href="#" className="color1">¿CÚAL ES LA POTENCIA DE HELLOSURVEY?</NavLink> 
-         <NavLink href="#" className="color1">¿QUE PUEDO HACER CON HELLOSURVEY?</NavLink> <NavLink className="color1" href="#">CONTACTO</NavLink> 
-         <Button className=" Bgrcolor2" >Prueba  HELLO SURVEY </Button>
+         <NavLink href="#" style={{color: 'black', background: 'cian'}}>¿CÚAL ES LA POTENCIA DE HELLOSURVEY?</NavLink> 
+         <NavLink href="#"style={{color: 'black', background: 'cian'}}>¿QUÉ PUEDO HACER CON HELLOSURVEY?</NavLink>
+         <NavLink  href="#" style={{color: 'black', background: 'cian'}}>CONTACTO</NavLink> 
+         <Button style={{marginLeft: "3%" , background: 'rgb(151, 98, 12)'}}>Prueba  HELLO SURVEY </Button>
       </Nav>
-    </div>
+
+      </Row>
+      </Container>
             </>
         )
     }

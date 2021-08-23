@@ -7,10 +7,13 @@ import './index.css';
 import Home from './Pagina/Home';
 import reportWebVitals from './reportWebVitals';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+   
   </React.StrictMode>,
+  
   document.getElementById('root')
 );
 
