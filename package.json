@@ -18,7 +18,9 @@
     "react-parallax": "^3.3.0",
     "react-scripts": "4.0.3",
     "react-scroll-parallax": "^2.4.0",
+    "react-scrollmagic": "^2.3.0",
     "reactstrap": "^8.9.0",
+    "scrollmagic": "^2.0.8",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
