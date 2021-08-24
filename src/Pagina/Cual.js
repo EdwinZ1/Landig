@@ -16,32 +16,38 @@ class Cual extends React.Component {
         return (
             <>
                 <div className="container px-0">
-                    
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                     <h1>¿Cuál es el potencial de HELLO SURVEY?</h1> <br />
                     <p>Crea encuestas vía web y envíalas a miles de personas vía correo electrónico, WhatsApp, Facebook, WeChat, Telegram,<br />
                         Instagram o por cualquier otro medio digital que desees. Inclusive puedes descargar un código QR e imprimirlo para <br />
                         que cualquier persona pueda acceder y contestarlas fácilmente desde su PC, Tablet o celular de forma ágil y fácil.</p>
                     <br /><br />
+                    
+                    <br />
 
+                    
+                    
+                        
+                            <img src={A1} width="60%" alt="" />
 
-
-                    <img src={A1} width="60%" alt="" />
-
-                    <img src={A2} width="7%" alt="" />
+                    <img src={A2} className="Avion AV" width="7%" alt="" />
+                    <Reveal repeat>
+                    
+                    {/* Animacion del avion */}
+                   
+                            
+                        
 
 
 
 
                     {/* Agregar animacion por cada una de las imagenes que estan */}
-                    <Reveal repeat>
-                    <Controller>
                         <Timeline
                             target={
                                 <img src={A3} className="A3" width="5%" alt="" />} >
                             <Tween from={{ scaleY: 0.3, opacity: 0.5 }} duration={2} />
-
                         </Timeline>
-
+                    
                         <Timeline
                             target={
                                 <img src={A4} className="A4" width="6%" alt="" />} >
@@ -57,16 +63,13 @@ class Cual extends React.Component {
                             target={
                                 <img src={A6} className="A6" width="5%" alt="" />} >
                             <Tween from={{ scaleY: 0.3, opacity: 0.5 }} duration={2} />
-
-                        </Timeline>
-                   
-
-                        </Controller>
+                        </Timeline>                   
+                        
                     </Reveal>
                     <br />
                     <br />
                     <br />
-
+                    
                 </div>
             </>
         )
