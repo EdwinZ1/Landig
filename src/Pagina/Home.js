@@ -1,14 +1,14 @@
 import React from 'react';
 import Footer from './Footer';
 import Header  from './Header';
-import Principal  from './Principal';
+import Cual  from './Cual';
 
 class Home extends React.Component {
     render() {
         return(
             <>
             <Header />
-            <Principal />
+            <Cual />            
             <Footer />
             </>
         )

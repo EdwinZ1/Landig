@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 h1{
-    color: #9EA5A5;
-    font-size: 19pt;
+    color: #6d6d6d;
+    font-size: 22pt;
+    
   }
   h2
   {
@@ -35,5 +36,7 @@ h1{
   }
   p
   {
+    font-size: 15pt;
     color:#696A6F;
+    
   }
