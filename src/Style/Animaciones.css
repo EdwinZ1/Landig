@@ -1,0 +1,59 @@
+.A3{
+    position: absolute;
+    margin-top: 2.7%;
+    margin-left: 4%;
+
+}
+.A4{
+    position: relative;
+    margin-top: -20%;
+    margin-left: 18%;
+}
+.A5{
+    position: relative;
+   margin-top: 13%;
+   margin-left: -21%;
+
+}
+
+.A6{
+    position: absolute;
+    margin-left: 7.8%;
+    margin-top: 8%;
+}
+.Avion {
+    position: absolute;
+    margin-top: 10%;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    animation-name: twinkle-1;
+      
+}
+.AV {
+    animation-timing-function: linear;
+    
+  }
+  @keyframes twinkle-1 {
+
+    0%{
+      margin-left: -45%;
+      opacity: 0.5;
+    }
+    1%{
+        margin-top: 1%;
+      }
+      2%{
+        margin-top: 2%;
+      }
+      3%{
+        margin-top: 3%;
+      }
+      4%{
+        margin-top: 4%;
+      }
+      5%{
+        margin-top: 5%;
+      }
+     
+   
+  }

@@ -5,27 +5,71 @@ import A3 from '../IMG/3_Sección-2/E1.png';
 import A4 from '../IMG/3_Sección-2/E2.png';
 import A5 from '../IMG/3_Sección-2/E3.png';
 import A6 from '../IMG/3_Sección-2/E4.png';
+import '../Style/Animaciones.css';
+import { Reveal, Tween, Timeline } from 'react-gsap';
+import { Controller, Scene } from 'react-scrollmagic';
+
 
 class Cual extends React.Component {
     render() {
+
         return (
             <>
                 <div className="container px-0">
+                    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                     <h1>¿Cuál es el potencial de HELLO SURVEY?</h1> <br />
                     <p>Crea encuestas vía web y envíalas a miles de personas vía correo electrónico, WhatsApp, Facebook, WeChat, Telegram,<br />
                         Instagram o por cualquier otro medio digital que desees. Inclusive puedes descargar un código QR e imprimirlo para <br />
                         que cualquier persona pueda acceder y contestarlas fácilmente desde su PC, Tablet o celular de forma ágil y fácil.</p>
-                        <br />
-                <img src={A1} width="75%" alt="" />
-                <img src={A2} width="" alt="" />
-                {/* Inicio de animaciones */}
-                <img src={A3} width="5%" alt="" />
-                <img src={A4} width="5%" alt="" />
-                <img src={A5} width="5%" alt="" />
-                <img src={A6} width="5%" alt="" />
-                {/* Termina sesion de animaciones */}
+                    <br /><br />
+                    
+                    <br />
 
-                
+                    
+                    
+                        
+                            <img src={A1} width="60%" alt="" />
+
+                    <img src={A2} className="Avion AV" width="7%" alt="" />
+                    <Reveal repeat>
+                    
+                    {/* Animacion del avion */}
+                   
+                            
+                        
+
+
+
+
+                    {/* Agregar animacion por cada una de las imagenes que estan */}
+                        <Timeline
+                            target={
+                                <img src={A3} className="A3" width="5%" alt="" />} >
+                            <Tween from={{ scaleY: 0.3, opacity: 0.5 }} duration={2} />
+                        </Timeline>
+                    
+                        <Timeline
+                            target={
+                                <img src={A4} className="A4" width="6%" alt="" />} >
+                            <Tween from={{ scaleY: 0.3, opacity: 0.5 }} duration={2} />
+
+                        </Timeline>
+                        <Timeline
+                            target={
+                                <img src={A4} className="A5" width="5%" alt="" />} >
+                            <Tween from={{ scaleY: 0.3, opacity: 0.5 }} duration={2} />
+
+                        </Timeline><Timeline
+                            target={
+                                <img src={A6} className="A6" width="5%" alt="" />} >
+                            <Tween from={{ scaleY: 0.3, opacity: 0.5 }} duration={2} />
+                        </Timeline>                   
+                        
+                    </Reveal>
+                    <br />
+                    <br />
+                    <br />
+                    
                 </div>
             </>
         )
