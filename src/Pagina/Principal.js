@@ -1,8 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import A from '../IMG/1_Header/Imagen.png';
 import { Controller, Scene } from 'react-scrollmagic';
-import B from '../IMG/2_Sección-1/Base_2.png'
 
 class Principal extends React.Component {
     render() {

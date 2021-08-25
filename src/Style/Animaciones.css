@@ -24,7 +24,6 @@
 .Avion {
     position: absolute;
     margin-top: 10%;
-    animation-iteration-count: infinite;
     animation-duration: 8s;
     animation-name: twinkle-1;
       

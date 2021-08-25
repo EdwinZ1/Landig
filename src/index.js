@@ -3,17 +3,29 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './index.css';
 import Home from './Pagina/Home';
+// import QE from './Pagina/QE';
 import reportWebVitals from './reportWebVitals';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-   
-  </React.StrictMode>,
-  
+  <Router>
+    <div>
+
+      <Switch>
+        <Route exact path='/' component={Home} />
+        {/* <Route path="/QE" exact component={QE} /> */}
+
+
+        {/* <Route component={NotFound} /> */}
+      </Switch>
+
+
+    </div>
+  </Router>,
+
   document.getElementById('root')
 );
 

@@ -34,11 +34,21 @@ h1{
     color: #9EA5A5;
     font-size: 11pt;
   }
+  .menu {
+    color: black;
+    font-size: 10pt;
+  }
   p
   {
     font-size: 15pt;
     color:#696A6F;
   }
-
+  .Fondo
+  {
+      position: absolute;
+      z-index: -1;
+  }
+  
+ 
   
   
