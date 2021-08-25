@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../Style/Generales.css';
 import derecha from '../IMG/1_Header/Flecha_derecha.png';
-import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Modal, ModalHeader, ModalBody, ModalFooter ,Button} from 'reactstrap';
 import izquierda from '../IMG/1_Header/Flecha_izquierda.png';
 import A1 from '../IMG/1_Header/Img_1.png';
 import A2 from '../IMG/1_Header/Img_2.png';
@@ -29,29 +29,33 @@ class Header extends React.Component {
     return (
       <>
         <div className="Fondo px-0">
-          <img src={Fondo} width="100%"  alt="fondo" />
+          <img src={Fondo} width="114.5%" height="408.6px"  alt="fondo" />
         </div>
 
         <Navbar light expand="lg" fixed="top" className="p-0">
-          <NavbarBrand ><a href="/"><img class="navbar-brand" src={logo} className="px-4 " width="70%" alt="" /></a>
+          <NavbarBrand ><a href="/"><img class="navbar-brand" src={logo} className="px-4" width="68%" alt="" /></a>
           </NavbarBrand>
           <NavbarToggler />
           <Collapse navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto pt-4" navbar>
               <NavItem>
-                <NavLink href="#" style={{ color: '#03555B' }}><h7 className="pt-4 menu" ><b>¿QUÉ ES HELLOSURVEY?</b></h7></NavLink>
+                <NavLink href="#" style={{ color: '#03555B' }}><h7 className=" menu" ><b>¿QUÉ ES HELLOSURVEY?</b></h7></NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#" style={{ color: '#03555B' }}><h7 className="pt-4 menu" ><b>¿CÚAL ES EL POTENCIAL DE HELLOSURVEY?</b></h7></NavLink>
+                <NavLink href="#" style={{ color: '#03555B' }}><h7 className=" menu" ><b>¿CÚAL ES EL POTENCIAL DE HELLOSURVEY?</b></h7></NavLink>
               </NavItem>
-
+              <NavItem>
+                <NavLink href="#" style={{ color: '#03555B' }}><h7 className=" menu" ><b>¿QUÉ PUEDO HACER CON HELLOSURVEY?</b></h7></NavLink>
+              </NavItem>
               <NavItem>
                 <NavItem>
-                  <NavLink href="#" style={{ color: '#03555B' }}><h7 className="pt-4 menu"><b>CONTACTO&nbsp;&nbsp;</b></h7></NavLink>
+                  <NavLink href="#" style={{ color: '#03555B' }}><h7 className=" menu"><b>CONTACTO&nbsp;&nbsp;</b></h7></NavLink>
                 </NavItem>
               </NavItem>
-              <NavItem className="pt-4 px-4">
-                <button style={{ color: 'transparent' }} className="btn btn-sm bp py-2"><b style={{ color: '#0B9CA7' }}>&nbsp;&nbsp;Prueba HelloSurvey&nbsp;&nbsp;</b></button>
+              <NavItem className=" px-4">
+                <Button style={{ color: 'transparent', background: '#855a00' }} className="btn btn-sm bp">
+                  <b style={{ color: 'white' }}>&nbsp;&nbsp;Prueba HelloSurvey&nbsp;&nbsp;</b>
+                  </Button>
               </NavItem>
             </Nav>
           </Collapse>
