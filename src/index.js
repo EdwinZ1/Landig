@@ -16,12 +16,8 @@ ReactDOM.render(
 
       <Switch>
         <Route exact path='/' component={Home} />
-        {/* <Route path="/QE" exact component={QE} /> */}
-
-
         {/* <Route component={NotFound} /> */}
       </Switch>
-
 
     </div>
   </Router>,

@@ -2,24 +2,25 @@
 
 h1{
     color: #6d6d6d;
-    font-size: 22pt;
+    font-size: 28pt;
+    
     
   }
   h2
   {
-  color: #36C7D2;
-  font-size: 16pt;
-  font-weight: bold;
+  color: black;
+  font-size: 14pt;
+  
   }
   h3
   {
-  color: #36C7D2;
-  font-size: 14pt;
+  color: black;
+  font-size: 13pt;
   }
   h4
   {
     color: #9EA5A5;
-    font-size: 14pt;
+    font-size: 14.5pt;
   }
   h5
   {
@@ -40,7 +41,7 @@ h1{
   }
   p
   {
-    font-size: 15pt;
+    font-size: 14pt;
     color:#696A6F;
   }
   .Fondo

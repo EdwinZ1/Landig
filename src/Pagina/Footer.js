@@ -1,7 +1,9 @@
 import React from 'react';
 import { Row } from 'reactstrap';
-import logo from '../IMG/14_Foother/Logo_Evenet.png';
-import F from '../IMG/15_Sección-13/Ic_1.png';
+import logo from '../IMG/14_Foother/HS_LogoFooter.png';
+import F from '../IMG/14_Foother/Facebook_Icon2.png';
+import G from '../IMG/14_Foother/IG_Icon.png';
+import M from '../IMG/14_Foother/Whats_Icon.png';
 
 
 class Footer extends React.Component {
@@ -28,17 +30,17 @@ class Footer extends React.Component {
                         </h7>
 
                     </div>
-                    <div className="col-sm-2 py-4 px-2" >
+                    <div className="col-sm-2 py-5 px-2" >
                         <h7>Socios vendedores.</h7> <br /><br />
                         <h7>Aviso de privacidad.</h7><br /><br />
                         <h7>Vender la platafroma.</h7>
 
                     </div>
-                    <div className="col-sm-1 px-4 " align="right"  >
+                    <div className="col-sm-1 px-4 py-0 " align="right"  >
                         <br /><br />
-                        <img src={F} width="40" alt=""/>
-                        <img src={F} width="40" alt=""/>
-                        <img src={F} width="40" alt=""/>
+                       <a href="https://www.facebook.com/HelloMexicoAgenciaDigital/" target="_blank" ><img src={F} width="38" className="py-1" alt=""/></a> 
+                        <img src={M} width="38" className="py-1" alt=""/>
+                        <a href="https://www.instagram.com/hellomx_agencia/" target="_blank" ><img src={G} width="38" className="py-1" alt=""/></a>
                         
                         
 
