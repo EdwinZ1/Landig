@@ -14,7 +14,7 @@ class Contacto extends React.Component {
         <p id="Contacto"></p>
         
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <div className="container">
+        <div className="container-fluid">
 
 
           <center>
@@ -22,9 +22,15 @@ class Contacto extends React.Component {
             <p>Contáctate directamente con nosotros, vía WhatsApp o déjanos tus datos y un ejecutivo<br /> de cuenta  se pondrá en contacto con tigo a la brevedad. </p>
           </center>
           <br /><br />
+          
 
-          <Row>
-            <div className="col-md-6">
+
+<Row>
+
+          
+
+          
+            <div className="col-md-5" style={{marginLeft:"5%"}}>
               <Reveal repeat>
 
 
@@ -51,7 +57,7 @@ class Contacto extends React.Component {
                       required />
                     <br />
                    
-                    <button className="btn-lg " style={{ backgroundColor: "black", color: "White" ,  marginLeft: "70%" , padding: "5px 5px 5px 100px"}} ><p style={{textAlign:"center"}}>Enviar</p></button>
+                    <button className="btn-lg " style={{ backgroundColor: "black", color: "White" ,  marginLeft: "90%"}} >Enviar</button>
                    
                   </FormGroup>
                 </Form>
@@ -59,7 +65,7 @@ class Contacto extends React.Component {
            
             </div>
  
-            <div className="col-md-6 px-5">
+            <div className="col-md-3 px-5"  style={{marginLeft:"15%"}}>
               <br />
               <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
               <h3>Account Manger</h3>
@@ -71,7 +77,11 @@ class Contacto extends React.Component {
               <p>&nbsp;&nbsp;&nbsp;&nbsp; julio.ferrer@hellomexico.mx</p>
             </div>
 
+        
+
           </Row>
+
+
         </div>
 
         <br /><br /><br /><br /><br /><br />
