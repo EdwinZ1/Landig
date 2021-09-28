@@ -4,6 +4,7 @@ import F8 from '../IMG/14_Foother/Whats_Icon.png';
 import F1 from '../IMG/14_Foother/Facebook_Icon1.png';
 import { Row, Card, CardBody, Form, FormGroup, Label, Input, } from 'reactstrap';
 import { Reveal, Tween } from 'react-gsap';
+import { merge } from 'jquery';
 
 
 class Contacto extends React.Component {
@@ -49,11 +50,15 @@ class Contacto extends React.Component {
                       alt="cometarios"
                       required />
                     <br />
-                    <button className="btn ml-auto" style={{ backgroundColor: "black", color: "White" }} >Enviar</button>
+                   
+                    <button className="btn-lg " style={{ backgroundColor: "black", color: "White" ,  marginLeft: "70%" , padding: "5px 5px 5px 100px"}} ><p style={{textAlign:"center"}}>Enviar</p></button>
+                   
                   </FormGroup>
                 </Form>
               </Reveal>
+           
             </div>
+ 
             <div className="col-md-6 px-5">
               <br />
               <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
