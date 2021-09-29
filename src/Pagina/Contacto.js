@@ -4,7 +4,6 @@ import F8 from '../IMG/14_Foother/Whats_Icon.png';
 import F1 from '../IMG/14_Foother/Facebook_Icon1.png';
 import { Row, Card, CardBody, Form, FormGroup, Label, Input, } from 'reactstrap';
 import { Reveal, Tween } from 'react-gsap';
-import { merge } from 'jquery';
 
 
 class Contacto extends React.Component {
@@ -12,9 +11,9 @@ class Contacto extends React.Component {
     return (
       <>
         <p id="Contacto"></p>
-        
+
         <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <div className="container-fluid">
+        <div className="container">
 
 
           <center>
@@ -22,15 +21,15 @@ class Contacto extends React.Component {
             <p>Contáctate directamente con nosotros, vía WhatsApp o déjanos tus datos y un ejecutivo<br /> de cuenta  se pondrá en contacto con tigo a la brevedad. </p>
           </center>
           <br /><br />
-          
 
 
-<Row>
 
-          
+          <Row>
 
-          
-            <div className="col-md-5" style={{marginLeft:"5%"}}>
+
+
+
+            <div className="col-md-6" >
               <Reveal repeat>
 
 
@@ -40,7 +39,9 @@ class Contacto extends React.Component {
                     <h2>Nombre:</h2>
                     <Input type="text"
                       placeholder="Ingrese su nombre"
-                      alt=""
+                      alt="nombre"
+                      pattern="[a-zA-Z]"
+                      title="Mazimo 25 caracteres"
                       required />
 
                     <br />
@@ -56,16 +57,16 @@ class Contacto extends React.Component {
                       alt="cometarios"
                       required />
                     <br />
-                   
-                    <button className="btn-lg " style={{ backgroundColor: "black", color: "White" ,  marginLeft: "90%"}} >Enviar</button>
-                   
+                    
+                    <button className="btn btn-primary" type="submit"  >Enviar</button>
+
                   </FormGroup>
                 </Form>
               </Reveal>
-           
+
             </div>
- 
-            <div className="col-md-3 px-5"  style={{marginLeft:"15%"}}>
+
+            <div className="col-md-6 px-5"  >
               <br />
               <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
               <h3>Account Manger</h3>
@@ -77,7 +78,7 @@ class Contacto extends React.Component {
               <p>&nbsp;&nbsp;&nbsp;&nbsp; julio.ferrer@hellomexico.mx</p>
             </div>
 
-        
+
 
           </Row>
 
