@@ -77,7 +77,7 @@ class Contacto extends React.Component {
               <br />
                 
             <Reveal repeat>
-                  <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={0} duration={2}>
+                  <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={0} duration={1}>
                    
               <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
               <h3>Account Manger</h3>
