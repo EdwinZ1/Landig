@@ -7,6 +7,7 @@ import F8 from '../IMG/14_Foother/Whats_Icon.png';
 import F1 from '../IMG/14_Foother/Facebook_Icon1.png';
 import { Row, Card, CardBody, Form, FormGroup, Label, Input, } from 'reactstrap';
 import { Reveal, Tween } from 'react-gsap';
+import { Background } from 'react-parallax';
 
 
 class Contacto extends React.Component {
@@ -63,7 +64,7 @@ class Contacto extends React.Component {
                       required />
                     <br />
                     
-                    <button className="btn btn-primary" type="submit"  >Enviar</button>
+                    <button className="btn btn-primary " type="submit" style={{width: "150px", backgroundColor: "black", position: "absolute", top:"100%", left:"70%"}} >Enviar</button>
                    
 
                    
