@@ -1,3 +1,6 @@
+
+
+
 import React from 'react';
 import F7 from '../IMG/14_Foother/Mail_Icon1.png';
 import F8 from '../IMG/14_Foother/Whats_Icon.png';
@@ -27,16 +30,17 @@ class Contacto extends React.Component {
           <Row>
 
 
-
+          <Reveal repeat>
+                  <Tween from={{ x: '-30px' }} to={{ x: '0px' }} stagger={1} duration={1.3}>
+                  
 
             <div className="col-md-6" >
-              <Reveal repeat>
+                           
 
-
-                <Form>
+            <Form>
                   <FormGroup>
-
-                    <h2>Nombre:</h2>
+                        
+                  <h2>Nombre:</h2>
                     <Input type="text"
                       placeholder="Ingrese su nombre"
                       alt="nombre"
@@ -45,6 +49,7 @@ class Contacto extends React.Component {
                       required />
 
                     <br />
+                    
                     <h2>Correo eléctronico:</h2>
                     <Input type="email"
                       placeholder="Ingrese su e-mail"
@@ -59,15 +64,21 @@ class Contacto extends React.Component {
                     <br />
                     
                     <button className="btn btn-primary" type="submit"  >Enviar</button>
+                   
 
+                   
                   </FormGroup>
                 </Form>
-              </Reveal>
 
             </div>
-
+            </Tween>
+                  </Reveal>
             <div className="col-md-6 px-5"  >
               <br />
+                
+            <Reveal repeat>
+                  <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={0} duration={2}>
+                   
               <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
               <h3>Account Manger</h3>
               <br />
@@ -76,9 +87,12 @@ class Contacto extends React.Component {
               <br />
               <img src={F7} width="30" alt="Correo electronico" align="left" />
               <p>&nbsp;&nbsp;&nbsp;&nbsp; julio.ferrer@hellomexico.mx</p>
+                
+                  
+                </Tween>
+                  </Reveal>
+
             </div>
-
-
 
           </Row>
 
