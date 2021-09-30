@@ -304,11 +304,14 @@ class MultipleF extends React.Component {
           <Row>
             <div className="col-md-6">
               <br />
+              
               <Reveal repeat>
                 <Tween from={{ x: '0px', opacity: 0 }} to={{ x: '285px', opacity: 1 }} stagger={1} duration={1.9} >
-                  <img src={F9} width="45%" alt="" />
+                <img src={F9} width="45%" alt="" />
                 </Tween>
               </Reveal>
+
+              
             </div>
             
             <div className="col-md-6">

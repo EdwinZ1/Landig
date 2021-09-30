@@ -32,7 +32,7 @@ class Contacto extends React.Component {
 
 
           <Reveal repeat>
-                  <Tween from={{ x: '-30px' }} to={{ x: '0px' }} stagger={1} duration={1.3}>
+                  <Tween from={{ x: '-40px' }} to={{ x: '0px' }} stagger={1} duration={1.3}>
                   
 
             <div className="col-md-6" >
@@ -78,7 +78,7 @@ class Contacto extends React.Component {
               <br />
                 
             <Reveal repeat>
-                  <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={0} duration={1}>
+                  <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={1} duration={1}>
                    
               <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
               <h3>Account Manger</h3>
