@@ -399,15 +399,15 @@ class MultipleF extends React.Component {
           <center>
             <h1>Otros Servicios</h1>
           </center>
-          <br />  <br />
+          <br />  <br /> 
 
 
           <Row>
             <Reveal repeat>
               <Tween from={{ y: '55px' }} to={{ y: '0px' }}>
                 <div className="col-md-3 border-0 pt-2 contenedor">
-                  <img src={C1} width="62%" className="px-1 pt-1" alt="" />
-                  <img src={C6} className="top px-0 pt-0" width="62%" alt="" />
+                  <img src={C1} width="57%" className="px-1 pt-1" alt="" />
+                  <img src={C6} className="top px-0 pt-0" width="57%" alt="" />
                 </div>
                 <div className="col-md-3 px-0 pt-2 contenedor ">
                   <img src={C3} width="62%" alt="" />
@@ -415,12 +415,12 @@ class MultipleF extends React.Component {
 
 
                 </div>
-                <div className="col-md-3 border-0 contenedor ">
-                  <img src={C2} width="62%" className="px-1 pt-1" alt="" opacity="0" />
+                <div className="col-md-3 border-0 contenedor " style={{position: "absolute", top:"985%", left:"47%"}}>
+                <img src={C2} width="62%" className="px-1 pt-1" alt="" opacity="0" />
                   <img src={C5} width="62%"  alt="" />
                 </div>
 
-                <div className="col-md-3 border-0 pt-2 contenedor">
+                <div className="col-md-3 border-0 pt-2 contenedor" style={{position: "absolute", top:"985%", left:"70%"}}>
                   <img src={C4} width="62%" className="px-1 pt-1" alt="" />
                   
                   <img src={C8} className="top" width="61.9%" alt="" />
