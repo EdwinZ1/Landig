@@ -415,12 +415,12 @@ class MultipleF extends React.Component {
 
 
                 </div>
-                <div className="col-md-3 border-0 contenedor " style={{position: "absolute", top:"985%", left:"47%"}}>
+                <div className="col-md-3 border-0 contenedor " style={{position: "absolute", top:"1068%", left:"47%"}}>
                 <img src={C2} width="62%" className="px-1 pt-1" alt="" opacity="0" />
                   <img src={C5} width="62%"  alt="" />
                 </div>
 
-                <div className="col-md-3 border-0 pt-2 contenedor" style={{position: "absolute", top:"985%", left:"70%"}}>
+                <div className="col-md-3 border-0 pt-2 contenedor" style={{position: "absolute", top:"1068%", left:"70%"}}>
                   <img src={C4} width="62%" className="px-1 pt-1" alt="" />
                   
                   <img src={C8} className="top" width="61.9%" alt="" />
