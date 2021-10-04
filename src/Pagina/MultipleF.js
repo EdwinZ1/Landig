@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import { render } from "react-dom";
 import { Row, Card, CardBody, Form, FormGroup, Label, Input, } from 'reactstrap';
@@ -399,15 +400,15 @@ class MultipleF extends React.Component {
           <center>
             <h1>Otros Servicios</h1>
           </center>
-          <br />  <br /> 
+          <br />  <br />
 
 
           <Row>
             <Reveal repeat>
               <Tween from={{ y: '55px' }} to={{ y: '0px' }}>
                 <div className="col-md-3 border-0 pt-2 contenedor">
-                  <img src={C1} width="57%" className="px-1 pt-1" alt="" />
-                  <img src={C6} className="top px-0 pt-0" width="57%" alt="" />
+                  <img src={C1} width="62%" className="px-1 pt-1" alt="" />
+                  <img src={C6} className="top px-0 pt-0" width="61.8%" alt="" />
                 </div>
                 <div className="col-md-3 px-0 pt-2 contenedor ">
                   <img src={C3} width="62%" alt="" />
@@ -415,15 +416,15 @@ class MultipleF extends React.Component {
 
 
                 </div>
-                <div className="col-md-3 border-0 contenedor " style={{position: "absolute", top:"1068%", left:"47%"}}>
-                <img src={C2} width="62%" className="px-1 pt-1" alt="" opacity="0" />
-                  <img src={C5} width="62%"  alt="" />
+                <div className="col-md-3 border-0 contenedor " >
+                  <img src={C2} width="230.3px" height="104px" className="px-1 pt-1" alt="" opacity="0" style={{position: "absolute", top:"0%", left:"-4%"}}/>
+                  <img src={C5} width="176.5px" height="104px"  alt="" alt="" style={{position: "absolute", top:"30%", left:"5.5%"}}/>
                 </div>
 
-                <div className="col-md-3 border-0 pt-2 contenedor" style={{position: "absolute", top:"1068%", left:"70%"}}>
-                  <img src={C4} width="62%" className="px-1 pt-1" alt="" />
+                <div className="col-md-3 border-0 pt-2 contenedor" >
+                  <img src={C4} width="67%" className="px-1 pt-1" alt="" alt="" opacity="0" style={{position: "absolute", top:"0%", left:"1.7%"}}/>
                   
-                  <img src={C8} className="top" width="61.9%" alt="" />
+                  <img src={C8} className="top" width="61.9%" alt="" style={{ top:"55%"}} />
                 </div>
               </Tween>
             </Reveal>
