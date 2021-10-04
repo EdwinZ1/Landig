@@ -407,7 +407,7 @@ class MultipleF extends React.Component {
               <Tween from={{ y: '55px' }} to={{ y: '0px' }}>
                 <div className="col-md-3 border-0 pt-2 contenedor">
                   <img src={C1} width="62%" className="px-1 pt-1" alt="" />
-                  <img src={C6} className="top px-0 pt-0" width="61.8%" alt="" />
+                  <img src={C6} className="top px-0 pt-0" width="62%" alt="" />
                 </div>
                 <div className="col-md-3 px-0 pt-2 contenedor ">
                   <img src={C3} width="62%" alt="" />
