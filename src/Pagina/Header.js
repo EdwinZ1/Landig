@@ -23,10 +23,12 @@ import Fondo from '../IMG/1_Header/Fondo.png';
 import NFondo from '../IMG/1_Header/NavBar_BG.png';
 import { Link } from 'react-router-dom';
 
+
 class Header extends React.Component {
   render() {
+   
 
-
+    
 
     return (
       <>
