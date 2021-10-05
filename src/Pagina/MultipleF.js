@@ -410,18 +410,21 @@ class MultipleF extends React.Component {
                   <img src={C1} width="62%" className="px-1 pt-1" alt="" />
                   <img src={C6} className="top px-0 pt-0" width="61.8%" alt="" />
                 </div>
+
                 <div className="col-md-3 px-0 pt-2 contenedor ">
                   <img src={C3} width="62%" alt="" />
                   <img src={C7} className="top" width="62%" alt="" />
-
-
                 </div>
+               
+
                 <div className="col-md-3 border-0 contenedor " >
                   <img src={C2} width="229px" height="104px" className="px-1 pt-1" alt="" opacity="0" style={{position: "absolute", top:"0%", left:"-3.3%"}}/>
                   <img src={C5} width="178px" height="104px"  alt="" alt="" style={{position: "absolute", top:"30%", left:"5.5%"}}/>
-                
-                
+                             
                 </div>
+
+
+
 
                 <div className="col-md-3 border-0 pt-2 contenedor" >
                   <img src={C4} width="67%" className="px-1 pt-1" alt="" alt="" opacity="0" style={{position: "absolute", top:"0%", left:"1.7%"}}/>
@@ -433,6 +436,21 @@ class MultipleF extends React.Component {
           </Row>
         </div>
         <br />
+
+<br /><br /><br /><br /><br />
+<Row>
+            <Reveal repeat>
+              <Tween >
+        <div className="col-md-3 border-0 contenedor " >
+                  <img src={C2} width="229px" height="104px" className="px-1 pt-1" alt="" opacity="0" style={{position: "absolute", top:"0%", left:"-3.3%"}}/>
+                  <img src={C5} width="178px" height="104px"  alt="" alt="" style={{position: "absolute", top:"30%", left:"5.5%"}}/>
+                             
+                </div>
+                  </Tween>
+            </Reveal>
+</Row>
+
+
       </>
 
     )
