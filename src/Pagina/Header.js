@@ -22,13 +22,12 @@ import logo from '../IMG/1_Header/Logo-HelloSurvey.png';
 import Fondo from '../IMG/1_Header/Fondo.png';
 import NFondo from '../IMG/1_Header/NavBar_BG.png';
 import { Link } from 'react-router-dom';
-
+import BtnPruebaHello from './ModalBtnPruebaHello';
 
 class Header extends React.Component {
   render() {
    
-
-    
+   
 
     return (
       <>
@@ -59,11 +58,21 @@ class Header extends React.Component {
                   <NavLink href="#Contacto" style={{ color: '#03555B' }}><h7 className=" menu"><b>CONTACTO&nbsp;&nbsp;</b></h7></NavLink>
                 </NavItem>
               </NavItem>
+
+
+{/*
               <NavItem className=" px-4">
                 <Button style={{ color: 'transparent', background: '#7D5C00' }} className="btn btn-sm bp">
                   <b style={{ color: 'white' }}>&nbsp;&nbsp;Prueba HelloSurvey&nbsp;&nbsp;</b>
                   </Button>
               </NavItem>
+
+*/}
+{/*////////////////////////////////////////BOTÓN HELLOSURVEY /////////*/}
+
+              <BtnPruebaHello/>
+{/*//////////////////////////////////////////////////////////////////*/}
+
             </Nav>
           </Collapse>
         </Navbar>
