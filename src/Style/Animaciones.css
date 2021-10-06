@@ -305,6 +305,8 @@ margin-left: 2%;
   position: absolute; 
   transition: opacity 0s ease-in-out;
 }
+
+
 .contenedor img.top:hover {
   opacity: 0;
 }

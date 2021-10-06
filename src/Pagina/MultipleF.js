@@ -35,6 +35,7 @@ import C5 from '../IMG/13_Sección-12/Logo2_CDG.png';
 import C6 from '../IMG/13_Sección-12/Logo2_Evenet.png';
 import C7 from '../IMG/13_Sección-12/Logo2_HelloSurvey.png';
 import C8 from '../IMG/13_Sección-12/Logo2_IA.png';
+import C9 from '../IMG/13_Sección-12/Logo_CDG_OFF-03.png';
 import F1 from '../IMG/14_Foother/Facebook_Icon1.png';
 import F2 from '../IMG/14_Foother/Facebook_Icon2.png';
 import F3 from '../IMG/14_Foother/HS_LogoFooter.png';
@@ -417,12 +418,11 @@ class MultipleF extends React.Component {
                 </div>
                
 
-                <div className="col-md-3 border-0 contenedor " >
-                  <img src={C2} width="62%" alt=""  />
-                  <img src={C5}  className="top" width="62%" alt="" />
+                <div className="col-md-3 border-0  pt-2 contenedor " >
+                  <img src={C9} width="68%" alt=""  />
+                  <img src={C5}  className="top  px-3" width="66.7%" alt="" />
                              
                 </div>
-
 
 
 
@@ -437,7 +437,6 @@ class MultipleF extends React.Component {
         </div>
         <br />
 
-<br /><br /><br /><br /><br />
 
 
 
