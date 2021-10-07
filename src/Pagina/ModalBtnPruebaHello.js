@@ -1,7 +1,10 @@
 
 import React from 'react';
 import { Modal, ModalHeader, ModalFooter, ModalBody, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink ,Button } from 'reactstrap';
+
 export default class ModalBtnPruebaHello extends React.Component {
+  
+
     state={
         abrir:false
     }
@@ -15,6 +18,7 @@ render() {
 {/*////////////////////////////BOTON "PruebaHelloSuervey" DEL header*/}
 
             <NavItem className=" px-4">
+
                 <div onClick={() => this.setState({ abrir: !this.state.abrir })}>
                 <Button style={{ color: 'transparent', background: '#7D5C00' }} className="btn btn-sm bp">
                   <b style={{ color: 'white' }}>&nbsp;&nbsp;Prueba HelloSurvey&nbsp;&nbsp;</b>
