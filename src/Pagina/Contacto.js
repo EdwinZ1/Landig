@@ -31,67 +31,73 @@ class Contacto extends React.Component {
           <Row>
 
 
-          <Reveal repeat>
-                  <Tween from={{ x: '-40px' }} to={{ x: '0px' }} stagger={1} duration={2}>
-                  
+            <Reveal repeat>
+              <Tween from={{ x: '-40px' }} to={{ x: '0px' }} stagger={1} duration={2}>
 
-            <div className="col-md-6" >
-                           
 
-            <Form>
-                  <FormGroup>
-                        
-                  <h2>Nombre:</h2>
-                    <Input type="text"
-                      placeholder="Ingrese su nombre"
-                      alt="nombre"
-                      pattern="[a-zA-Z]"
-                      title="Mazimo 25 caracteres"
-                      required />
+                <div className="col-md-6" >
 
-                    <br />
-                    
-                    <h2>Correo eléctronico:</h2>
-                    <Input type="email"
-                      placeholder="Ingrese su e-mail"
-                      alt="correo electronico"
-                      required />
-                    <br />
-                    <h2>Comentarios:</h2>
-                    <Input type="textarea"
-                      placeholder="Escriba su comentario o texto a enviar "
-                      alt="cometarios"
-                      required />
-                    <br />
-                    
-                    <button className="btn btn-primary " type="submit" style={{width: "150px", backgroundColor: "black", position: "absolute", top:"100%", left:"70%"}} >Enviar</button>
-                   
 
-                   
-                  </FormGroup>
-                </Form>
+                  <Form>
+                    <FormGroup>
 
-            </div>
-            </Tween>
-                  </Reveal>
+                      <h2>Nombre:</h2>
+                      <Input type="text"
+                        placeholder="Ingrese su nombre"
+                        alt="nombre"
+                        pattern="[a-zA-Z]{5,25}"
+                        minLength="5"
+                        maxLength="25"
+                        title="Maximo 25 caracteres"
+                        required />
+
+                      <br />
+
+                      <h2>Correo eléctronico:</h2>
+                      <Input type="email"
+                        placeholder="Ingrese su e-mail"
+                        pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"
+                        title="Ingrese Correo valido"
+                        alt="correo electronico"
+                        required />
+                      <br />
+                      <h2>Comentarios:</h2>
+                      <Input type="textarea"
+                        placeholder="Escriba su comentario o texto a enviar "
+                        pattern="[a-zA-Z]{,200}"
+                        maxLength="200"
+                        alt="cometarios"
+                        required />
+                      <br />
+
+                      <button className="btn col-2" type="submit" style={{ backgroundColor: 'black', color: 'white', position: 'absolute', marginLeft: '79%' }}  >Enviar</button>
+
+
+
+                    </FormGroup>
+                  </Form>
+
+                </div>
+              </Tween>
+            </Reveal>
             <div className="col-md-6 px-5"  >
               <br />
-                
-            <Reveal repeat>
-                  <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={1} duration={3.5}>
-                   
-              <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
-              <h3>Account Manger</h3>
-              <br />
-              <img src={F1} width="30" alt="logo Facebook" align="left" />
-              <p >&nbsp;&nbsp;&nbsp;&nbsp; @HelloMexicoAgenciaDigital</p>
-              <br />
-              <img src={F7} width="30" alt="Correo electronico" align="left" />
-              <p>&nbsp;&nbsp;&nbsp;&nbsp; julio.ferrer@hellomexico.mx</p>
-                
-                  
+
+              <Reveal repeat>
+                <Tween from={{ x: '100px' }} to={{ x: '0px' }} stagger={1} duration={3.5}>
+
+                  <h1 style={{ color: '#1A1A1A' }}>Julio Ferrer</h1>
+                  <h3>Account Manger</h3>
+                  <br />
+                  <img src={F1} width="30" alt="logo Facebook" align="left" />
+                  <p >&nbsp;&nbsp;&nbsp;&nbsp; @HelloMexicoAgenciaDigital</p>
+                  <br />
+                  <img src={F7} width="30" alt="Correo electronico" align="left" />
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp; julio.ferrer@hellomexico.mx</p>
+
+
                 </Tween>
-                  </Reveal>
+              </Reveal>
 
             </div>
 

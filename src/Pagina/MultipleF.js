@@ -1,7 +1,5 @@
-
-import React, { Component } from 'react';
-import { render } from "react-dom";
-import { Row, Card, CardBody, Form, FormGroup, Label, Input, } from 'reactstrap';
+import React from 'react';
+import { Row, Card, CardBody } from 'reactstrap';
 import IT1 from '../IMG/5_Sección-4/Icon_Tx1.png';
 import IT2 from '../IMG/5_Sección-4/Icon_Tx2.png';
 import IT3 from '../IMG/5_Sección-4/Icon_Tx3.png';
@@ -27,23 +25,14 @@ import IT13 from '../IMG/12_Sección-11/Ic_Tx1.png';
 import IT14 from '../IMG/12_Sección-11/Ic_Tx2.png';
 import IT15 from '../IMG/12_Sección-11/Ic_Tx3.png';
 import IT16 from '../IMG/12_Sección-11/Ic_Tx4.png';
-import C1 from '../IMG/13_Sección-12/Logo_Evenet_ON.png';
-import C2 from '../IMG/13_Sección-12/Logo_CDG_ON.png';
+import C1 from '../IMG/13_Sección-12/Logo_EVENET_ON-02.png';
 import C3 from '../IMG/13_Sección-12/Logo_HelloSurvey_ON.png';
 import C4 from '../IMG/13_Sección-12/Logo_IA_ON.png';
-import C5 from '../IMG/13_Sección-12/Logo2_CDG.png';
-import C6 from '../IMG/13_Sección-12/Logo2_Evenet.png';
+import C5 from '../IMG/13_Sección-12/Logo_CDG_ON.png';
+import C6 from '../IMG/13_Sección-12/Logo_EVENET_OFF-02.png';
 import C7 from '../IMG/13_Sección-12/Logo2_HelloSurvey.png';
-import C8 from '../IMG/13_Sección-12/Logo2_IA.png';
+import C8 from '../IMG/13_Sección-12/Logo_IA_OFF.png';
 import C9 from '../IMG/13_Sección-12/Logo_CDG_OFF-03.png';
-import F1 from '../IMG/14_Foother/Facebook_Icon1.png';
-import F2 from '../IMG/14_Foother/Facebook_Icon2.png';
-import F3 from '../IMG/14_Foother/HS_LogoFooter.png';
-import F4 from '../IMG/14_Foother/IG_Icon.png';
-import F5 from '../IMG/14_Foother/Logo_Evenet.png';
-import F6 from '../IMG/14_Foother/Logo_HS.png';
-import F7 from '../IMG/14_Foother/Mail_Icon1.png';
-import F8 from '../IMG/14_Foother/Whats_Icon.png';
 import F9 from '../IMG/11_Sección-10/Imagen.png';
 import ITX1 from '../IMG/11_Sección-10/Ic_Tx1.png';
 import ITX2 from '../IMG/11_Sección-10/Ic_Tx2.png';
@@ -402,34 +391,36 @@ class MultipleF extends React.Component {
             <h1>Otros Servicios</h1>
           </center>
           <br />  <br />
+          <br />  <br />
+          
 
 
           <Row>
             <Reveal repeat>
-              <Tween from={{ y: '55px' }} to={{ y: '0px' }}>
+              <Tween from={{ y: '0px' }} to={{ y: '-40px' }}>
                 <div className="col-md-3 border-0 pt-2 contenedor">
-                  <img src={C1} width="62%" className="px-1 pt-1" alt="" />
-                  <img src={C6} className="top px-0 pt-0" width="61.8%" alt="" />
+                  <img src={C6} width="67%"  alt="" />
+                  <img src={C1} className="top " width="67%" alt="" />
                 </div>
 
-                <div className="col-md-3 px-0 pt-2 contenedor ">
-                  <img src={C3} width="62%" alt="" />
-                  <img src={C7} className="top" width="62%" alt="" />
+                <div className="col-md-3 px-0 pt-3 contenedor ">
+                  <img src={C3} width="67%" alt="" />
+                  <img src={C7} className="top" width="67%" alt="" />
                 </div>
                
 
                 <div className="col-md-3 border-0  pt-2 contenedor " >
-                  <img src={C9} width="68%" alt=""  />
-                  <img src={C5}  className="top  px-3" width="66.7%" alt="" />
+                  <img src={C9} width="67%" alt=""  />
+                  <img src={C5}  className="top " width="67%" alt="" />
                              
                 </div>
 
 
 
                 <div className="col-md-3 border-0 pt-2 contenedor" >
-                  <img src={C4} width="62%" alt="" />
+                  <img src={C4} width="67%" alt="" />
                   
-                  <img src={C8} className="top px-1" width="62%" alt="" />
+                  <img src={C8} className="top" width="67%" alt="" />
                 </div>
               </Tween>
             </Reveal>
