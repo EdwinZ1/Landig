@@ -30,7 +30,7 @@ render() {
 
 
 
-
+{/*////////////////////////////MODAL PruebaHelloSurvey/////////////////*/}
 
             <Modal isOpen={this.state.abrir} size="m" >
                     <ModalHeader cssModule={{ 'modal-title': 'w-100 text-right' }} style={{ background: '#F8C837' }}>
