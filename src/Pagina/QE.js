@@ -45,7 +45,7 @@ class QE extends React.Component {
 
                                 } >
                                 <Tween from={{ scaleY: 0.3, opacity: 0.5 }}
-                                    duration={2} />
+                                    duration={2} delay={0.5} />
 
                             </Timeline> 
 
@@ -58,7 +58,7 @@ class QE extends React.Component {
 
                                 <Tween />
 
-                            </Timeline> 
+                            </Timeline>  
 
                             {/* ACA PONLAS */}
 
