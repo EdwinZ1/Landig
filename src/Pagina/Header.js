@@ -4,6 +4,7 @@ import '../Style/Generales.css';
 import derecha from '../IMG/1_Header/Flecha_derecha.png';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Button } from 'reactstrap';
 import izquierda from '../IMG/1_Header/Flecha_izquierda.png';
+import WA from '../IMG/1_Header/BTN_WHATS_V01.png';
 import A1 from '../IMG/1_Header/Img_1.png';
 import A2 from '../IMG/1_Header/Img_2.png';
 import A3 from '../IMG/1_Header/Img_3.png';
@@ -77,6 +78,8 @@ const ModalPruebaHello = () =>{
 //////////////////////////////////////////////////////////////////
     return (
       <>
+      {/* Imagen de WhatSapp */}
+      <img src={WA} width="15%" style={{position: 'fixed', right: '-1%', marginTop: '40%'}}  />
 
         <div className="Fondo px-0">
           <img src={Fondo} width="100%" height="100%" alt="fondo" />
