@@ -79,7 +79,12 @@ const ModalPruebaHello = () =>{
     return (
       <>
       {/* Imagen de WhatSapp */}
+
+      <a href="https://api.whatsapp.com/send?phone=525559445474" alt="" target="_blank" >
       <img src={WA} width="15%" style={{position: 'fixed', right: '-1%', marginTop: '40%'}}  />
+</a>
+ 
+
 
         <div className="Fondo px-0">
           <img src={Fondo} width="100%" height="100%" alt="fondo" />
